@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block content %}
+<table>
+  <tr>
+    <th>Place</th>
+    <th>Noun</th>
+    <th>Verb</th>
+    <th>Adjective</th>
+    <th>Plural Noun</th>
+  </tr>
+  <tr>
+    <td>{{place}}</td>
+    <td>{{noun}}</td>
+    <td>{{verb}}</td>
+    <td>{{adjective}}</td>
+    <td>{{plural_noun}}</td>
+  </tr>
+</table>
+<p>{{madlibs_story}}</p>
+{% endblock %}

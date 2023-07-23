@@ -1,0 +1,102 @@
+header {
+    background-color: cornflowerblue;
+    text-decoration: black;
+    font-size: 40px;
+    position: fixed;
+    top: 0;
+    left:0px; 
+    right:0px; 
+    padding-bottom:10px 0; 
+    margin:0px 0 0 0;
+    font: italic small-caps bold 40px/2 cursive; 
+    position:absolute;
+    z-index: 10;
+
+}
+
+footer {
+    background-color: cornflowerblue;
+    text-decoration: black;
+    font-size: 40px;
+    position: fixed;
+    bottom: 0;
+    left:0px; 
+    right:0px; 
+    padding-bottom:10px 0; 
+    margin:0px 0 0 0;
+    font: italic small-caps bold 40px/2 cursive;
+    position:absolute;
+    z-index: 10;
+  }
+
+form {
+    position:absolute;
+    top: 30%;
+    left: 40%;
+}
+
+table {
+  position:absolute;
+  top: 20%;
+  left: 2%;
+  right:2%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+p {
+    position:absolute;
+    font-size: 40px;
+    top: 30%;
+    left: 5%;
+    color: cornflowerblue
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightskyblue;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
